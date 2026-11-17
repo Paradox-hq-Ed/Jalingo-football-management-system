@@ -1,0 +1,22 @@
+{
+  "name": "jalingo-football",
+  "private": true,
+  "workspaces": [
+    "server",
+    "packages/*",
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "dev:server": "npm run dev -w server",
+    "dev:club": "npm run dev -w club-web",
+    "dev:league": "npm run dev -w league-web",
+    "build": "npm run build -w club-web && npm run build -w league-web",
+    "seed": "npm run seed -w server",
+    "reseed": "npm run reseed -w server",
+    "start": "npm run start -w server",
+    "test": "npm test -w server"
+  }
+}

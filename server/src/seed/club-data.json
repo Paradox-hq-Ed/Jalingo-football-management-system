@@ -1,0 +1,2229 @@
+{
+ "CLUB": {
+  "name": "Eland FC",
+  "fullName": "Eland Football Club",
+  "facebook": "https://www.facebook.com/profile.php?id=61557238621879",
+  "facts": [
+   {
+    "k": "Name",
+    "v": "Eland FC (Eland Football Club)",
+    "verified": true
+   },
+   {
+    "k": "Based in",
+    "v": "Jalingo, Taraba State, Nigeria",
+    "verified": true
+   },
+   {
+    "k": "Online",
+    "v": "Facebook page",
+    "link": "facebook",
+    "verified": true
+   },
+   {
+    "k": "Founded",
+    "placeholder": "Year · awaiting club input"
+   },
+   {
+    "k": "Home ground",
+    "placeholder": "Venue · awaiting club input"
+   },
+   {
+    "k": "Club colours",
+    "placeholder": "Colours · awaiting club input"
+   },
+   {
+    "k": "Competitions",
+    "placeholder": "League / tournaments · awaiting club input"
+   },
+   {
+    "k": "Leadership",
+    "placeholder": "Owner, coach, officials · awaiting club input"
+   }
+  ]
+ },
+ "PHOTOS": {
+  "night": "1431324155629-1a6deb1dec8d",
+  "duel": "1553778263-73a83bab9b0c",
+  "dirt": "1606925797300-0b35e9d1794e",
+  "amateur": "1543326727-cf6c39e8f84c",
+  "amateur2": "1624880357913-a8539238245b",
+  "aerial": "1509077613385-f89402467146",
+  "balls": "1551958219-acbc608c6377",
+  "kick": "1560272564-c83b66b1ad12",
+  "boots": "1511886929837-354d827aae26",
+  "net": "1587329310686-91414b8e3cb7",
+  "tunnel": "1577223625816-7546f13df25d",
+  "line": "1459865264687-595d652de67e",
+  "touch": "1600679472829-3044539ce8ed",
+  "keeper": "1517466787929-bc90951d0974",
+  "ball": "1574629810360-7efbbe195018",
+  "dusk": "1614632537197-38a17061c2bd"
+ },
+ "MATCHES": [
+  {
+   "id": "m1",
+   "offset": 5,
+   "time": "16:00",
+   "home": true,
+   "opponent": "Demo United",
+   "competition": "Friendly",
+   "venue": "Home ground (TBC)"
+  },
+  {
+   "id": "m2",
+   "offset": 12,
+   "time": "16:30",
+   "home": false,
+   "opponent": "Demo Rangers",
+   "competition": "Local league",
+   "venue": "Away venue (TBC)"
+  },
+  {
+   "id": "m3",
+   "offset": 19,
+   "time": "15:30",
+   "home": true,
+   "opponent": "Demo Stars",
+   "competition": "Local league",
+   "venue": "Home ground (TBC)"
+  },
+  {
+   "id": "m4",
+   "offset": 33,
+   "time": "16:00",
+   "home": false,
+   "opponent": "Demo Academy",
+   "competition": "Invitational",
+   "venue": "Away venue (TBC)"
+  },
+  {
+   "id": "m5",
+   "offset": 47,
+   "time": "16:00",
+   "home": true,
+   "opponent": "Demo City",
+   "competition": "Local league",
+   "venue": "Home ground (TBC)"
+  },
+  {
+   "id": "r1",
+   "offset": -2,
+   "time": "16:00",
+   "home": false,
+   "opponent": "Demo Strikers",
+   "competition": "Local league",
+   "venue": "Away venue (TBC)",
+   "score": [
+    2,
+    1
+   ],
+   "potm": 10,
+   "events": [
+    {
+     "min": 23,
+     "type": "goal",
+     "side": "opp"
+    },
+    {
+     "min": 51,
+     "type": "goal",
+     "side": "eland",
+     "num": 9
+    },
+    {
+     "min": 64,
+     "type": "yellow",
+     "side": "eland",
+     "num": 5
+    },
+    {
+     "min": 78,
+     "type": "goal",
+     "side": "eland",
+     "num": 10
+    }
+   ]
+  },
+  {
+   "id": "r2",
+   "offset": -9,
+   "time": "16:00",
+   "home": true,
+   "opponent": "Demo Wanderers",
+   "competition": "Friendly",
+   "venue": "Home ground (TBC)",
+   "score": [
+    1,
+    1
+   ],
+   "potm": 6,
+   "events": [
+    {
+     "min": 38,
+     "type": "goal",
+     "side": "eland",
+     "num": 7
+    },
+    {
+     "min": 55,
+     "type": "yellow",
+     "side": "opp"
+    },
+    {
+     "min": 70,
+     "type": "goal",
+     "side": "opp"
+    }
+   ]
+  },
+  {
+   "id": "r3",
+   "offset": -16,
+   "time": "15:30",
+   "home": true,
+   "opponent": "Demo Athletic",
+   "competition": "Local league",
+   "venue": "Home ground (TBC)",
+   "score": [
+    3,
+    0
+   ],
+   "potm": 9,
+   "events": [
+    {
+     "min": 11,
+     "type": "goal",
+     "side": "eland",
+     "num": 9
+    },
+    {
+     "min": 45,
+     "type": "goal",
+     "side": "eland",
+     "num": 11
+    },
+    {
+     "min": 58,
+     "type": "yellow",
+     "side": "opp"
+    },
+    {
+     "min": 83,
+     "type": "goal",
+     "side": "eland",
+     "num": 8
+    }
+   ]
+  },
+  {
+   "id": "r4",
+   "offset": -23,
+   "time": "16:00",
+   "home": false,
+   "opponent": "Demo Rovers",
+   "competition": "Invitational",
+   "venue": "Away venue (TBC)",
+   "score": [
+    0,
+    2
+   ]
+  },
+  {
+   "id": "r5",
+   "offset": -30,
+   "time": "16:00",
+   "home": true,
+   "opponent": "Demo Select",
+   "competition": "Friendly",
+   "venue": "Home ground (TBC)",
+   "postponed": true
+  },
+  {
+   "id": "r6",
+   "offset": -37,
+   "time": "16:00",
+   "home": false,
+   "opponent": "Demo Valley",
+   "competition": "Local league",
+   "venue": "Away venue (TBC)",
+   "score": [
+    2,
+    2
+   ]
+  },
+  {
+   "id": "r7",
+   "offset": -44,
+   "time": "15:30",
+   "home": true,
+   "opponent": "Demo Harriers",
+   "competition": "Friendly",
+   "venue": "Home ground (TBC)",
+   "score": [
+    4,
+    1
+   ]
+  }
+ ],
+ "SAMPLE_LINEUP": {
+  "xi": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8,
+   10,
+   7,
+   9,
+   11
+  ],
+  "subs": [
+   16,
+   12,
+   14,
+   18,
+   19
+  ]
+ },
+ "SEASON": "2026/27",
+ "POSITIONS": {
+  "GK": "Goalkeeper",
+  "DEF": "Defender",
+  "MID": "Midfielder",
+  "FWD": "Forward"
+ },
+ "SQUADS": [
+  {
+   "id": "first",
+   "name": "First Team",
+   "category": "Senior",
+   "gender": "Men",
+   "status": "demo",
+   "coach": "t-head",
+   "summary": "The senior men's squad and the club's main competitive side."
+  },
+  {
+   "id": "u19",
+   "name": "Under-19s",
+   "category": "Youth",
+   "gender": "Boys",
+   "status": "demo",
+   "coach": "t-youth",
+   "summary": "Development squad bridging youth football and the first team."
+  },
+  {
+   "id": "women",
+   "name": "Women",
+   "category": "Senior",
+   "gender": "Women",
+   "status": "proposed",
+   "coach": null,
+   "summary": "A senior women's side. Shown as a possible pathway only; the club has not announced one."
+  },
+  {
+   "id": "u15",
+   "name": "Under-15s",
+   "category": "Academy",
+   "gender": "Mixed",
+   "status": "proposed",
+   "coach": null,
+   "summary": "Academy-age football focused on technique and enjoyment. A possible pathway, not yet confirmed."
+  },
+  {
+   "id": "u13",
+   "name": "Under-13s",
+   "category": "Academy",
+   "gender": "Mixed",
+   "status": "proposed",
+   "coach": null,
+   "summary": "Introductory football for younger players. A possible pathway, not yet confirmed."
+  }
+ ],
+ "CONTRACT_TYPES": {
+  "senior": "Senior player registration",
+  "youth": "Youth registration",
+  "trial": "Trial period",
+  "loan": "Loan (incoming)"
+ },
+ "AVAILABILITY": {
+  "available": "Available",
+  "injured": "Injured",
+  "suspended": "Suspended"
+ },
+ "PLAYERS": [
+  {
+   "id": "first-1",
+   "squad": "first",
+   "num": 1,
+   "pos": "GK",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0201",
+   "availability": "available",
+   "contract": {
+    "type": "senior",
+    "start": -10,
+    "end": 9,
+    "registered": true
+   },
+   "sample": {
+    "apps": 11,
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 4,
+    "yellow": 1,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "first",
+     "apps": 11,
+     "goals": 0
+    },
+    {
+     "season": "2025/26",
+     "squad": "u19",
+     "apps": 13,
+     "goals": 0
+    }
+   ]
+  },
+  {
+   "id": "first-16",
+   "squad": "first",
+   "num": 16,
+   "pos": "GK",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0202",
+   "availability": "available",
+   "contract": {
+    "type": "senior",
+    "start": -18,
+    "end": 7,
+    "registered": true
+   },
+   "sample": {
+    "apps": 11,
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 4,
+    "yellow": 1,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "first",
+     "apps": 11,
+     "goals": 0
+    },
+    {
+     "season": "2025/26",
+     "squad": "first",
+     "apps": 13,
+     "goals": 0
+    }
+   ]
+  },
+  {
+   "id": "first-2",
+   "squad": "first",
+   "num": 2,
+   "pos": "DEF",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0203",
+   "availability": "available",
+   "contract": {
+    "type": "senior",
+    "start": -3,
+    "end": 22,
+    "registered": true
+   },
+   "sample": {
+    "apps": 6,
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": null,
+    "yellow": 2,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "first",
+     "apps": 6,
+     "goals": 0
+    }
+   ]
+  },
+  {
+   "id": "first-3",
+   "squad": "first",
+   "num": 3,
+   "pos": "DEF",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0204",
+   "availability": "available",
+   "contract": {
+    "type": "senior",
+    "start": -13,
+    "end": 10,
+    "registered": true
+   },
+   "sample": {
+    "apps": 7,
+    "goals": 0,
+    "assists": 2,
+    "cleanSheets": null,
+    "yellow": 0,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "first",
+     "apps": 7,
+     "goals": 0
+    },
+    {
+     "season": "2025/26",
+     "squad": "first",
+     "apps": 12,
+     "goals": 0
+    }
+   ]
+  },
+  {
+   "id": "first-4",
+   "squad": "first",
+   "num": 4,
+   "pos": "DEF",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0205",
+   "availability": "injured",
+   "contract": {
+    "type": "senior",
+    "start": -3,
+    "end": 20,
+    "registered": true
+   },
+   "sample": {
+    "apps": 8,
+    "goals": 1,
+    "assists": 0,
+    "cleanSheets": null,
+    "yellow": 1,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "first",
+     "apps": 8,
+     "goals": 1
+    }
+   ]
+  },
+  {
+   "id": "first-5",
+   "squad": "first",
+   "num": 5,
+   "pos": "DEF",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0206",
+   "availability": "available",
+   "contract": {
+    "type": "senior",
+    "start": -13,
+    "end": 8,
+    "registered": true
+   },
+   "sample": {
+    "apps": 9,
+    "goals": 0,
+    "assists": 2,
+    "cleanSheets": null,
+    "yellow": 2,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "first",
+     "apps": 9,
+     "goals": 0
+    },
+    {
+     "season": "2025/26",
+     "squad": "u19",
+     "apps": 8,
+     "goals": 1
+    }
+   ]
+  },
+  {
+   "id": "first-12",
+   "squad": "first",
+   "num": 12,
+   "pos": "DEF",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0207",
+   "availability": "available",
+   "contract": {
+    "type": "senior",
+    "start": -5,
+    "end": 16,
+    "registered": true
+   },
+   "sample": {
+    "apps": 7,
+    "goals": 0,
+    "assists": 2,
+    "cleanSheets": null,
+    "yellow": 0,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "first",
+     "apps": 7,
+     "goals": 0
+    }
+   ]
+  },
+  {
+   "id": "first-6",
+   "squad": "first",
+   "num": 6,
+   "pos": "MID",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0208",
+   "availability": "available",
+   "contract": {
+    "type": "senior",
+    "start": -6,
+    "end": 21,
+    "registered": true
+   },
+   "sample": {
+    "apps": 4,
+    "goals": 0,
+    "assists": 3,
+    "cleanSheets": null,
+    "yellow": 0,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "first",
+     "apps": 4,
+     "goals": 0
+    }
+   ]
+  },
+  {
+   "id": "first-8",
+   "squad": "first",
+   "num": 8,
+   "pos": "MID",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0209",
+   "availability": "available",
+   "contract": {
+    "type": "senior",
+    "start": -3,
+    "end": 16,
+    "registered": true
+   },
+   "sample": {
+    "apps": 12,
+    "goals": 2,
+    "assists": 0,
+    "cleanSheets": null,
+    "yellow": 2,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "first",
+     "apps": 12,
+     "goals": 2
+    }
+   ]
+  },
+  {
+   "id": "first-10",
+   "squad": "first",
+   "num": 10,
+   "pos": "MID",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0210",
+   "availability": "available",
+   "contract": {
+    "type": "senior",
+    "start": -20,
+    "end": 11,
+    "registered": true
+   },
+   "sample": {
+    "apps": 11,
+    "goals": 1,
+    "assists": 1,
+    "cleanSheets": null,
+    "yellow": 1,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "first",
+     "apps": 11,
+     "goals": 1
+    },
+    {
+     "season": "2025/26",
+     "squad": "first",
+     "apps": 7,
+     "goals": 1
+    }
+   ]
+  },
+  {
+   "id": "first-14",
+   "squad": "first",
+   "num": 14,
+   "pos": "MID",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0211",
+   "availability": "available",
+   "contract": {
+    "type": "loan",
+    "start": -11,
+    "end": 5,
+    "registered": true
+   },
+   "sample": {
+    "apps": 6,
+    "goals": 2,
+    "assists": 0,
+    "cleanSheets": null,
+    "yellow": 2,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "first",
+     "apps": 6,
+     "goals": 2
+    },
+    {
+     "season": "2025/26",
+     "squad": "u19",
+     "apps": 14,
+     "goals": 3
+    }
+   ]
+  },
+  {
+   "id": "first-18",
+   "squad": "first",
+   "num": 18,
+   "pos": "MID",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0212",
+   "availability": "suspended",
+   "contract": {
+    "type": "senior",
+    "start": -22,
+    "end": 7,
+    "registered": true
+   },
+   "sample": {
+    "apps": 10,
+    "goals": 0,
+    "assists": 3,
+    "cleanSheets": null,
+    "yellow": 0,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "first",
+     "apps": 10,
+     "goals": 0
+    },
+    {
+     "season": "2025/26",
+     "squad": "first",
+     "apps": 9,
+     "goals": 0
+    }
+   ]
+  },
+  {
+   "id": "first-7",
+   "squad": "first",
+   "num": 7,
+   "pos": "FWD",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0213",
+   "availability": "available",
+   "contract": {
+    "type": "senior",
+    "start": -8,
+    "end": 21,
+    "registered": true
+   },
+   "sample": {
+    "apps": 8,
+    "goals": 1,
+    "assists": 1,
+    "cleanSheets": null,
+    "yellow": 1,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "first",
+     "apps": 8,
+     "goals": 1
+    }
+   ]
+  },
+  {
+   "id": "first-9",
+   "squad": "first",
+   "num": 9,
+   "pos": "FWD",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0214",
+   "availability": "available",
+   "contract": {
+    "type": "senior",
+    "start": -5,
+    "end": 16,
+    "registered": true
+   },
+   "sample": {
+    "apps": 7,
+    "goals": 3,
+    "assists": 2,
+    "cleanSheets": null,
+    "yellow": 0,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "first",
+     "apps": 7,
+     "goals": 3
+    }
+   ]
+  },
+  {
+   "id": "first-11",
+   "squad": "first",
+   "num": 11,
+   "pos": "FWD",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0215",
+   "availability": "available",
+   "contract": {
+    "type": "trial",
+    "start": -1,
+    "end": 1,
+    "registered": false
+   },
+   "sample": {
+    "apps": 6,
+    "goals": 5,
+    "assists": 3,
+    "cleanSheets": null,
+    "yellow": 1,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "first",
+     "apps": 6,
+     "goals": 5
+    }
+   ]
+  },
+  {
+   "id": "first-19",
+   "squad": "first",
+   "num": 19,
+   "pos": "FWD",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0216",
+   "availability": "available",
+   "contract": {
+    "type": "senior",
+    "start": -21,
+    "end": 4,
+    "registered": true
+   },
+   "sample": {
+    "apps": 11,
+    "goals": 4,
+    "assists": 2,
+    "cleanSheets": null,
+    "yellow": 0,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "first",
+     "apps": 11,
+     "goals": 4
+    },
+    {
+     "season": "2025/26",
+     "squad": "u19",
+     "apps": 16,
+     "goals": 4
+    }
+   ]
+  },
+  {
+   "id": "u19-1",
+   "squad": "u19",
+   "num": 1,
+   "pos": "GK",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0217",
+   "availability": "available",
+   "contract": {
+    "type": "youth",
+    "start": -15,
+    "end": 14,
+    "registered": true
+   },
+   "sample": {
+    "apps": 5,
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 1,
+    "yellow": 0,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "u19",
+     "apps": 5,
+     "goals": 0
+    },
+    {
+     "season": "2025/26",
+     "squad": "u19",
+     "apps": 6,
+     "goals": 0
+    }
+   ]
+  },
+  {
+   "id": "u19-13",
+   "squad": "u19",
+   "num": 13,
+   "pos": "GK",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0218",
+   "availability": "available",
+   "contract": {
+    "type": "youth",
+    "start": -22,
+    "end": 13,
+    "registered": true
+   },
+   "sample": {
+    "apps": 2,
+    "goals": 0,
+    "assists": 0,
+    "cleanSheets": 4,
+    "yellow": 1,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "u19",
+     "apps": 2,
+     "goals": 0
+    },
+    {
+     "season": "2025/26",
+     "squad": "u19",
+     "apps": 9,
+     "goals": 0
+    }
+   ]
+  },
+  {
+   "id": "u19-2",
+   "squad": "u19",
+   "num": 2,
+   "pos": "DEF",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0219",
+   "availability": "available",
+   "contract": {
+    "type": "youth",
+    "start": -8,
+    "end": 5,
+    "registered": true
+   },
+   "sample": {
+    "apps": 9,
+    "goals": 0,
+    "assists": 1,
+    "cleanSheets": null,
+    "yellow": 1,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "u19",
+     "apps": 9,
+     "goals": 0
+    }
+   ]
+  },
+  {
+   "id": "u19-3",
+   "squad": "u19",
+   "num": 3,
+   "pos": "DEF",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0220",
+   "availability": "available",
+   "contract": {
+    "type": "youth",
+    "start": -18,
+    "end": 15,
+    "registered": true
+   },
+   "sample": {
+    "apps": 10,
+    "goals": 0,
+    "assists": 3,
+    "cleanSheets": null,
+    "yellow": 2,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "u19",
+     "apps": 10,
+     "goals": 0
+    },
+    {
+     "season": "2025/26",
+     "squad": "u19",
+     "apps": 17,
+     "goals": 1
+    }
+   ]
+  },
+  {
+   "id": "u19-4",
+   "squad": "u19",
+   "num": 4,
+   "pos": "DEF",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0221",
+   "availability": "available",
+   "contract": {
+    "type": "youth",
+    "start": -8,
+    "end": 3,
+    "registered": true
+   },
+   "sample": {
+    "apps": 2,
+    "goals": 1,
+    "assists": 1,
+    "cleanSheets": null,
+    "yellow": 0,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "u19",
+     "apps": 2,
+     "goals": 1
+    }
+   ]
+  },
+  {
+   "id": "u19-5",
+   "squad": "u19",
+   "num": 5,
+   "pos": "DEF",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0222",
+   "availability": "available",
+   "contract": {
+    "type": "youth",
+    "start": -18,
+    "end": 13,
+    "registered": true
+   },
+   "sample": {
+    "apps": 3,
+    "goals": 0,
+    "assists": 3,
+    "cleanSheets": null,
+    "yellow": 1,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "u19",
+     "apps": 3,
+     "goals": 0
+    },
+    {
+     "season": "2025/26",
+     "squad": "u19",
+     "apps": 13,
+     "goals": 0
+    }
+   ]
+  },
+  {
+   "id": "u19-6",
+   "squad": "u19",
+   "num": 6,
+   "pos": "MID",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0223",
+   "availability": "available",
+   "contract": {
+    "type": "youth",
+    "start": -8,
+    "end": 23,
+    "registered": true
+   },
+   "sample": {
+    "apps": 4,
+    "goals": 2,
+    "assists": 1,
+    "cleanSheets": null,
+    "yellow": 2,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "u19",
+     "apps": 4,
+     "goals": 2
+    }
+   ]
+  },
+  {
+   "id": "u19-8",
+   "squad": "u19",
+   "num": 8,
+   "pos": "MID",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0224",
+   "availability": "injured",
+   "contract": {
+    "type": "youth",
+    "start": -5,
+    "end": 18,
+    "registered": true
+   },
+   "sample": {
+    "apps": 3,
+    "goals": 1,
+    "assists": 2,
+    "cleanSheets": null,
+    "yellow": 1,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "u19",
+     "apps": 3,
+     "goals": 1
+    }
+   ]
+  },
+  {
+   "id": "u19-10",
+   "squad": "u19",
+   "num": 10,
+   "pos": "MID",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0225",
+   "availability": "available",
+   "contract": {
+    "type": "youth",
+    "start": -22,
+    "end": 13,
+    "registered": true
+   },
+   "sample": {
+    "apps": 2,
+    "goals": 0,
+    "assists": 3,
+    "cleanSheets": null,
+    "yellow": 0,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "u19",
+     "apps": 2,
+     "goals": 0
+    },
+    {
+     "season": "2025/26",
+     "squad": "u19",
+     "apps": 9,
+     "goals": 0
+    }
+   ]
+  },
+  {
+   "id": "u19-15",
+   "squad": "u19",
+   "num": 15,
+   "pos": "MID",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0226",
+   "availability": "available",
+   "contract": {
+    "type": "youth",
+    "start": -20,
+    "end": 7,
+    "registered": true
+   },
+   "sample": {
+    "apps": 4,
+    "goals": 2,
+    "assists": 1,
+    "cleanSheets": null,
+    "yellow": 2,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "u19",
+     "apps": 4,
+     "goals": 2
+    },
+    {
+     "season": "2025/26",
+     "squad": "u19",
+     "apps": 11,
+     "goals": 3
+    }
+   ]
+  },
+  {
+   "id": "u19-7",
+   "squad": "u19",
+   "num": 7,
+   "pos": "FWD",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0227",
+   "availability": "available",
+   "contract": {
+    "type": "youth",
+    "start": -7,
+    "end": 20,
+    "registered": true
+   },
+   "sample": {
+    "apps": 5,
+    "goals": 5,
+    "assists": 0,
+    "cleanSheets": null,
+    "yellow": 0,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "u19",
+     "apps": 5,
+     "goals": 5
+    }
+   ]
+  },
+  {
+   "id": "u19-9",
+   "squad": "u19",
+   "num": 9,
+   "pos": "FWD",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0228",
+   "availability": "available",
+   "contract": {
+    "type": "youth",
+    "start": -4,
+    "end": 15,
+    "registered": true
+   },
+   "sample": {
+    "apps": 4,
+    "goals": 2,
+    "assists": 1,
+    "cleanSheets": null,
+    "yellow": 1,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "u19",
+     "apps": 4,
+     "goals": 2
+    }
+   ]
+  },
+  {
+   "id": "u19-11",
+   "squad": "u19",
+   "num": 11,
+   "pos": "FWD",
+   "verified": false,
+   "name": null,
+   "reg": "EFC-0229",
+   "availability": "available",
+   "contract": {
+    "type": "youth",
+    "start": -21,
+    "end": 10,
+    "registered": true
+   },
+   "sample": {
+    "apps": 3,
+    "goals": 4,
+    "assists": 2,
+    "cleanSheets": null,
+    "yellow": 0,
+    "red": 0
+   },
+   "career": [
+    {
+     "season": "2026/27",
+     "squad": "u19",
+     "apps": 3,
+     "goals": 4
+    },
+    {
+     "season": "2025/26",
+     "squad": "u19",
+     "apps": 16,
+     "goals": 4
+    }
+   ]
+  }
+ ],
+ "FORMER": [
+  {
+   "reg": "EFC-0101",
+   "squad": "first",
+   "pos": "FWD",
+   "from": 2024,
+   "to": 2025,
+   "apps": 24,
+   "goals": 11,
+   "departure": "Transferred"
+  },
+  {
+   "reg": "EFC-0102",
+   "squad": "first",
+   "pos": "MID",
+   "from": 2024,
+   "to": 2026,
+   "apps": 38,
+   "goals": 6,
+   "departure": "Transferred"
+  },
+  {
+   "reg": "EFC-0103",
+   "squad": "first",
+   "pos": "DEF",
+   "from": 2024,
+   "to": 2025,
+   "apps": 19,
+   "goals": 1,
+   "departure": "Contract ended"
+  },
+  {
+   "reg": "EFC-0104",
+   "squad": "first",
+   "pos": "GK",
+   "from": 2024,
+   "to": 2026,
+   "apps": 31,
+   "goals": 0,
+   "departure": "Retired"
+  },
+  {
+   "reg": "EFC-0105",
+   "squad": "first",
+   "pos": "MID",
+   "from": 2025,
+   "to": 2026,
+   "apps": 12,
+   "goals": 2,
+   "departure": "Loan ended"
+  },
+  {
+   "reg": "EFC-0106",
+   "squad": "first",
+   "pos": "DEF",
+   "from": 2024,
+   "to": 2025,
+   "apps": 9,
+   "goals": 0,
+   "departure": "Released"
+  },
+  {
+   "reg": "EFC-0107",
+   "squad": "first",
+   "pos": "FWD",
+   "from": 2025,
+   "to": 2026,
+   "apps": 16,
+   "goals": 7,
+   "departure": "Transferred"
+  },
+  {
+   "reg": "EFC-0108",
+   "squad": "first",
+   "pos": "DEF",
+   "from": 2024,
+   "to": 2026,
+   "apps": 41,
+   "goals": 3,
+   "departure": "Left the club"
+  },
+  {
+   "reg": "EFC-0109",
+   "squad": "u19",
+   "pos": "MID",
+   "from": 2024,
+   "to": 2025,
+   "apps": 14,
+   "goals": 4,
+   "departure": "Moved up to First Team"
+  },
+  {
+   "reg": "EFC-0110",
+   "squad": "u19",
+   "pos": "FWD",
+   "from": 2025,
+   "to": 2026,
+   "apps": 11,
+   "goals": 5,
+   "departure": "Transferred"
+  },
+  {
+   "reg": "EFC-0111",
+   "squad": "u19",
+   "pos": "DEF",
+   "from": 2024,
+   "to": 2025,
+   "apps": 8,
+   "goals": 0,
+   "departure": "Released"
+  },
+  {
+   "reg": "EFC-0112",
+   "squad": "u19",
+   "pos": "GK",
+   "from": 2025,
+   "to": 2026,
+   "apps": 10,
+   "goals": 0,
+   "departure": "Left the club"
+  },
+  {
+   "reg": "EFC-0113",
+   "squad": "first",
+   "pos": "MID",
+   "from": 2024,
+   "to": 2025,
+   "apps": 21,
+   "goals": 3,
+   "departure": "Contract ended"
+  },
+  {
+   "reg": "EFC-0114",
+   "squad": "u19",
+   "pos": "MID",
+   "from": 2025,
+   "to": 2026,
+   "apps": 13,
+   "goals": 1,
+   "departure": "Moved up to First Team"
+  }
+ ],
+ "DEPARTMENTS": {
+  "management": {
+   "name": "Club management",
+   "blurb": "Ownership, administration and finance."
+  },
+  "commercial": {
+   "name": "Partnerships & media",
+   "blurb": "Sponsorship, communications and the club's public voice."
+  },
+  "welfare": {
+   "name": "Welfare & safeguarding",
+   "blurb": "Player, parent and volunteer wellbeing."
+  },
+  "technical": {
+   "name": "Coaching & performance",
+   "blurb": "Training, selection, tactics and player development across every squad."
+  },
+  "medical": {
+   "name": "Medical & sports science",
+   "blurb": "Injury prevention, treatment, return-to-play and matchday cover. Medical information about individual players is confidential."
+  },
+  "operations": {
+   "name": "Team operations",
+   "blurb": "Logistics, kit, travel and matchday organisation."
+  }
+ },
+ "PEOPLE": [
+  {
+   "id": "m-owner",
+   "dept": "management",
+   "role": "Owner & Chairman",
+   "reportsTo": null,
+   "squads": "Whole club",
+   "duties": [
+    "Sets the club's direction and long-term plan",
+    "Final approval of budgets, senior appointments and partnerships",
+    "Represents the club to the community, league and partners"
+   ]
+  },
+  {
+   "id": "m-secretary",
+   "dept": "management",
+   "role": "Club Secretary",
+   "reportsTo": "m-owner",
+   "squads": "Whole club",
+   "duties": [
+    "Player registrations and the club's official records",
+    "Correspondence with leagues, associations and referees",
+    "Fixture administration and match documentation"
+   ]
+  },
+  {
+   "id": "m-finance",
+   "dept": "management",
+   "role": "Finance Officer",
+   "reportsTo": "m-owner",
+   "squads": "Whole club",
+   "duties": [
+    "Budgeting, bookkeeping and financial reporting",
+    "Partner invoicing and payment tracking",
+    "Keeps player contract terms confidential and secure"
+   ]
+  },
+  {
+   "id": "m-ops",
+   "dept": "management",
+   "role": "Operations Manager",
+   "reportsTo": "m-owner",
+   "squads": "Whole club",
+   "duties": [
+    "Facilities, pitch bookings and training venues",
+    "Matchday planning and volunteer coordination",
+    "Equipment purchasing and travel budgets"
+   ]
+  },
+  {
+   "id": "m-football",
+   "dept": "management",
+   "role": "Head of Football",
+   "reportsTo": "m-owner",
+   "squads": "All squads",
+   "duties": [
+    "Oversees the technical and medical departments",
+    "Recruitment strategy, trials and player pathways",
+    "Contract recommendations and squad planning"
+   ]
+  },
+  {
+   "id": "m-commercial",
+   "dept": "commercial",
+   "role": "Partnerships & Commercial Lead",
+   "reportsTo": "m-owner",
+   "squads": "Whole club",
+   "duties": [
+    "Finds, agrees and looks after partnerships",
+    "Delivers partner benefits and regular updates",
+    "Keeps the partner register up to date"
+   ]
+  },
+  {
+   "id": "m-media",
+   "dept": "commercial",
+   "role": "Media & Communications Officer",
+   "reportsTo": "m-commercial",
+   "squads": "Whole club",
+   "duties": [
+    "Publishes news, fixtures and results on the website",
+    "Runs the club's social channels and photography",
+    "Handles media enquiries and player consent for publication"
+   ]
+  },
+  {
+   "id": "m-welfare",
+   "dept": "welfare",
+   "role": "Welfare & Safeguarding Officer",
+   "reportsTo": "m-owner",
+   "squads": "All squads, especially youth",
+   "duties": [
+    "First point of contact for any welfare concern",
+    "Maintains the safeguarding policy and volunteer checks",
+    "Ensures young players are supervised and supported"
+   ]
+  },
+  {
+   "id": "t-head",
+   "dept": "technical",
+   "role": "Head Coach",
+   "reportsTo": "m-football",
+   "squads": "First Team",
+   "qual": "Coaching licence",
+   "duties": [
+    "Selects the team and sets tactics",
+    "Leads first-team training and match preparation",
+    "Recommends signings, releases and contract renewals"
+   ]
+  },
+  {
+   "id": "t-assistant",
+   "dept": "technical",
+   "role": "Assistant Coach",
+   "reportsTo": "t-head",
+   "squads": "First Team",
+   "qual": "Coaching licence",
+   "duties": [
+    "Delivers training sessions and set-piece work",
+    "Individual player feedback and development plans",
+    "Leads the team when the Head Coach is unavailable"
+   ]
+  },
+  {
+   "id": "t-gk",
+   "dept": "technical",
+   "role": "Goalkeeping Coach",
+   "reportsTo": "t-head",
+   "squads": "First Team, Under-19s",
+   "qual": "Goalkeeping qualification",
+   "duties": [
+    "Specialist goalkeeper training across squads",
+    "Goalkeeper selection advice",
+    "Distribution and set-piece defending"
+   ]
+  },
+  {
+   "id": "t-fitness",
+   "dept": "technical",
+   "role": "Fitness & Conditioning Coach",
+   "reportsTo": "t-head",
+   "squads": "All squads",
+   "qual": "Strength & conditioning qualification",
+   "duties": [
+    "Pre-season and in-season conditioning plans",
+    "Training load monitoring to reduce injury risk",
+    "Works with the physiotherapist on return-to-play"
+   ]
+  },
+  {
+   "id": "t-youth",
+   "dept": "technical",
+   "role": "Under-19s Coach",
+   "reportsTo": "m-football",
+   "squads": "Under-19s",
+   "qual": "Coaching licence",
+   "duties": [
+    "Runs the Under-19s programme",
+    "Identifies players ready to step up to the first team",
+    "Works with the welfare officer on youth wellbeing"
+   ]
+  },
+  {
+   "id": "t-analyst",
+   "dept": "technical",
+   "role": "Performance Analyst",
+   "reportsTo": "t-head",
+   "squads": "First Team",
+   "qual": "Analysis background",
+   "duties": [
+    "Match filming and video review",
+    "Collects match statistics for the website and coaches",
+    "Opposition scouting reports"
+   ]
+  },
+  {
+   "id": "t-scout",
+   "dept": "technical",
+   "role": "Recruitment & Trials Coordinator",
+   "reportsTo": "m-football",
+   "squads": "All squads",
+   "qual": "Scouting background",
+   "duties": [
+    "Reviews trial enquiries from the website",
+    "Organises trial sessions with the coaching staff",
+    "Keeps recruitment records and follow-ups"
+   ]
+  },
+  {
+   "id": "x-doctor",
+   "dept": "medical",
+   "role": "Club Medical Officer",
+   "reportsTo": "m-football",
+   "squads": "All squads",
+   "qual": "Medical registration",
+   "duties": [
+    "Pre-season medical screening",
+    "Diagnosis and referral for serious injuries",
+    "Final say on medical fitness to play"
+   ]
+  },
+  {
+   "id": "x-physio",
+   "dept": "medical",
+   "role": "Physiotherapist",
+   "reportsTo": "x-doctor",
+   "squads": "First Team, Under-19s",
+   "qual": "Physiotherapy registration",
+   "duties": [
+    "Injury assessment and treatment",
+    "Rehabilitation and return-to-play programmes",
+    "Updates player availability for the coaching staff"
+   ]
+  },
+  {
+   "id": "x-firstaid",
+   "dept": "medical",
+   "role": "Matchday First Aider",
+   "reportsTo": "x-physio",
+   "squads": "All matches",
+   "qual": "First-aid certificate",
+   "duties": [
+    "Pitch-side cover at every home and away match",
+    "Emergency action plan for each venue",
+    "Records incidents for the medical officer"
+   ]
+  },
+  {
+   "id": "o-teammanager",
+   "dept": "operations",
+   "role": "Team Manager",
+   "reportsTo": "m-ops",
+   "squads": "First Team",
+   "qual": "Administration background",
+   "duties": [
+    "Matchday team sheets and player registrations",
+    "Travel, meals and match logistics",
+    "Liaison between players, staff and officials"
+   ]
+  },
+  {
+   "id": "o-kit",
+   "dept": "operations",
+   "role": "Kit & Equipment Manager",
+   "reportsTo": "m-ops",
+   "squads": "All squads",
+   "qual": "n/a",
+   "duties": [
+    "Kit preparation, washing and stock",
+    "Training equipment and match balls",
+    "Partner branding on kit and pitch-side boards"
+   ]
+  }
+ ],
+ "ORG": {
+  "top": "m-owner",
+  "management": [
+   "m-secretary",
+   "m-finance",
+   "m-ops"
+  ],
+  "branches": [
+   {
+    "title": "Football",
+    "people": [
+     "m-football",
+     "t-head",
+     "t-youth",
+     "x-doctor"
+    ],
+    "links": [
+     {
+      "label": "All technical & medical staff",
+      "href": "/teams/staff"
+     },
+     {
+      "label": "Squads",
+      "href": "/teams/squads"
+     }
+    ]
+   },
+   {
+    "title": "Partnerships & media",
+    "people": [
+     "m-commercial",
+     "m-media"
+    ],
+    "links": [
+     {
+      "label": "Partnership options",
+      "href": "/partners"
+     }
+    ]
+   },
+   {
+    "title": "Welfare & operations",
+    "people": [
+     "m-welfare",
+     "o-teammanager",
+     "o-kit"
+    ],
+    "links": [
+     {
+      "label": "Club policies",
+      "scroll": "club-governance"
+     }
+    ]
+   }
+  ]
+ },
+ "GOVERNANCE": {
+  "registration": [
+   {
+    "k": "Legal status",
+    "placeholder": "e.g. CAC registration · awaiting club input"
+   },
+   {
+    "k": "State affiliation",
+    "placeholder": "State FA affiliation · awaiting club input"
+   },
+   {
+    "k": "Competitions",
+    "placeholder": "Leagues & tournaments · awaiting club input"
+   },
+   {
+    "k": "Registered players",
+    "computed": "players"
+   },
+   {
+    "k": "Registered squads",
+    "computed": "squads"
+   }
+  ],
+  "policies": [
+   {
+    "k": "Safeguarding",
+    "v": "Protecting children and vulnerable adults"
+   },
+   {
+    "k": "Code of conduct",
+    "v": "Players, staff, parents and supporters"
+   },
+   {
+    "k": "Anti-discrimination",
+    "v": "Equal treatment for everyone at the club"
+   },
+   {
+    "k": "Data protection",
+    "v": "How personal data is handled, in line with the Nigeria Data Protection Act 2023"
+   },
+   {
+    "k": "Medical & concussion",
+    "v": "Injury management and return-to-play"
+   },
+   {
+    "k": "Complaints",
+    "v": "How to raise a concern and how it is handled"
+   }
+  ]
+ },
+ "CLUB_RECORDS": [
+  {
+   "k": "Most appearances",
+   "source": "register-apps"
+  },
+  {
+   "k": "Top scorer",
+   "source": "register-goals"
+  },
+  {
+   "k": "Record win",
+   "text": "Awaiting verified match records."
+  },
+  {
+   "k": "Founded",
+   "text": "Year awaiting club input."
+  },
+  {
+   "k": "First competitive match",
+   "text": "Awaiting club records."
+  },
+  {
+   "k": "Players registered",
+   "source": "register-count"
+  }
+ ],
+ "LEAGUE": {
+  "name": "Local league (sample)",
+  "rows": [
+   {
+    "team": "Eland FC",
+    "p": 3,
+    "w": 2,
+    "d": 1,
+    "l": 0,
+    "gf": 7,
+    "ga": 3
+   },
+   {
+    "team": "Demo Strikers",
+    "p": 4,
+    "w": 2,
+    "d": 1,
+    "l": 1,
+    "gf": 6,
+    "ga": 5
+   },
+   {
+    "team": "Demo Athletic",
+    "p": 4,
+    "w": 2,
+    "d": 0,
+    "l": 2,
+    "gf": 5,
+    "ga": 6
+   },
+   {
+    "team": "Demo Valley",
+    "p": 3,
+    "w": 1,
+    "d": 2,
+    "l": 0,
+    "gf": 6,
+    "ga": 4
+   },
+   {
+    "team": "Demo Rangers",
+    "p": 3,
+    "w": 1,
+    "d": 1,
+    "l": 1,
+    "gf": 4,
+    "ga": 4
+   },
+   {
+    "team": "Demo Stars",
+    "p": 4,
+    "w": 1,
+    "d": 0,
+    "l": 3,
+    "gf": 3,
+    "ga": 7
+   },
+   {
+    "team": "Demo City",
+    "p": 3,
+    "w": 0,
+    "d": 1,
+    "l": 2,
+    "gf": 2,
+    "ga": 5
+   }
+  ]
+ },
+ "PARTNER_TIERS": [
+  {
+   "name": "Principal partner",
+   "slots": 1,
+   "cols": 1,
+   "h": 140
+  },
+  {
+   "name": "Official partners",
+   "slots": 4,
+   "cols": 4,
+   "h": 110
+  },
+  {
+   "name": "Community supporters",
+   "slots": 6,
+   "cols": 6,
+   "h": 84
+  }
+ ],
+ "NEWS": [
+  {
+   "id": "n1",
+   "cat": "Matches",
+   "offset": -1,
+   "photo": "kick",
+   "featured": true,
+   "title": "Preview: five days to the next home friendly",
+   "dek": "What the coaching staff want from the next match, and why friendlies matter for a growing squad.",
+   "body": [
+    "Friendlies give a grassroots squad what it needs most: minutes. The next home match is a chance for newer players to show what they can do in a real game and for the coaching staff to try combinations before league fixtures.",
+    "Previews like this would normally include team news, a word from the coach and travel or kick-off details for supporters. All of it can be written by the club in a few minutes and published here and on Facebook at the same time."
+   ]
+  },
+  {
+   "id": "n2",
+   "cat": "Matches",
+   "offset": -2,
+   "photo": "amateur2",
+   "title": "Report: a hard-earned away win",
+   "dek": "Away from home, the squad came from behind to take all three points.",
+   "body": [
+    "Match reports give each result a permanent home. Unlike social posts, they stay easy to find, connect to the fixture in the match centre and build a record of the season over time.",
+    "This sample report shows the layout: headline, short standfirst and a few paragraphs on how the game went."
+   ]
+  },
+  {
+   "id": "n3",
+   "cat": "Club",
+   "offset": -6,
+   "photo": "boots",
+   "title": "A new digital home for Eland FC",
+   "dek": "Why the club is moving from a single social page to a website of its own.",
+   "body": [
+    "Facebook is good for quick updates, but it isn't built to hold fixtures, a squad list or partnership information. A dedicated website gives the club one address it controls.",
+    "Social channels stay important. They become the place to share news, with the website as the place people go to find it."
+   ]
+  },
+  {
+   "id": "n4",
+   "cat": "Community",
+   "offset": -11,
+   "photo": "touch",
+   "title": "How local football brings young players through",
+   "dek": "Grassroots clubs are where most players get their start. Here's how Eland plans to play its part.",
+   "body": [
+    "Community stories show partners and families what the club does off the pitch. This sample story is a placeholder for coverage of sessions, school visits or tournaments, published only once they have actually happened."
+   ]
+  },
+  {
+   "id": "n5",
+   "cat": "Squad",
+   "offset": -15,
+   "photo": "keeper",
+   "title": "Squad update: profiles coming soon",
+   "dek": "Player profiles will go live once the club confirms names, numbers and photos.",
+   "body": [
+    "Every player in the squad section will get a profile with position, number, photo and a short bio. Until the club confirms these details, the squad page shows numbered placeholders, so no names are invented."
+   ]
+  },
+  {
+   "id": "n6",
+   "cat": "Club",
+   "offset": -20,
+   "photo": "tunnel",
+   "title": "Partnership enquiries are open",
+   "dek": "Local businesses can now ask about backing the club through matchday, kit and community partnerships.",
+   "body": [
+    "The partnerships page sets out the kinds of support the club could offer, with a simple enquiry form. Every partnership is tailored. Nothing listed is an existing agreement."
+   ]
+  }
+ ],
+ "NEWS_CATS": [
+  "All",
+  "Matches",
+  "Club",
+  "Community",
+  "Squad",
+  "Video"
+ ],
+ "GALLERY": [
+  {
+   "photo": "night",
+   "alt": "Floodlit pitch at night"
+  },
+  {
+   "photo": "duel",
+   "alt": "Two players competing for the ball"
+  },
+  {
+   "photo": "net",
+   "alt": "Ball hitting the back of the net"
+  },
+  {
+   "photo": "ball",
+   "alt": "Player controlling the ball on grass"
+  },
+  {
+   "photo": "amateur",
+   "alt": "Amateur match in progress"
+  },
+  {
+   "photo": "dirt",
+   "alt": "Ball and boots on a dusty pitch"
+  },
+  {
+   "photo": "line",
+   "alt": "White touchline on fresh grass"
+  },
+  {
+   "photo": "dusk",
+   "alt": "Ball on a pitch at dusk"
+  }
+ ],
+ "OPPORTUNITIES": [
+  {
+   "title": "Principal partner",
+   "short": "The club's lead partner across kit, pitch-side and online.",
+   "includes": [
+    "Front-of-shirt placement (subject to kit design)",
+    "Lead logo position on the website",
+    "Recognition in every matchday post"
+   ],
+   "suits": "An established local business wanting the most visible association with the club."
+  },
+  {
+   "title": "Matchday partner",
+   "short": "Sponsor a single fixture, or a run of them.",
+   "includes": [
+    "Named sponsor on the fixture page and match report",
+    "Pitch-side presence on the day",
+    "Social post naming the partner"
+   ],
+   "suits": "Businesses trying a partnership for the first time, or marking a launch or event."
+  },
+  {
+   "title": "Player of the Month",
+   "short": "Recognise the squad's standout performer each month.",
+   "includes": [
+    "Named award on the website and social channels",
+    "Presentation photo with the winner",
+    "Ongoing association with player development"
+   ],
+   "suits": "Brands that want to be linked with effort, improvement and young talent."
+  },
+  {
+   "title": "Kit & equipment partner",
+   "short": "Help supply kit, balls, bibs and training equipment.",
+   "includes": [
+    "Logo on training wear or equipment",
+    "Recognition on the partners page",
+    "Story covering the handover"
+   ],
+   "suits": "Retailers, suppliers or businesses that prefer to contribute goods or services."
+  },
+  {
+   "title": "Community programme",
+   "short": "Back open sessions, youth football or local outreach.",
+   "includes": [
+    "Named programme, e.g. \"[Partner] Community Football\"",
+    "Regular updates and photos",
+    "Coverage in the news section"
+   ],
+   "suits": "Organisations with community or social-impact aims."
+  },
+  {
+   "title": "Digital partner",
+   "short": "Support the website and the club's online presence.",
+   "includes": [
+    "Credited on the website footer and news section",
+    "Sponsored content slots, clearly labelled",
+    "Recognition when new features launch"
+   ],
+   "suits": "Telecoms, tech or media businesses that want a digital audience."
+  }
+ ],
+ "ROADMAP": [
+  {
+   "stage": "Now",
+   "label": "This demo",
+   "items": [
+    "Club identity and brand direction",
+    "Match centre structure",
+    "Squad profile templates",
+    "News and gallery layouts",
+    "Partnership and trial enquiry flows"
+   ]
+  },
+  {
+   "stage": "Next",
+   "label": "With club input",
+   "items": [
+    "Real fixtures, results and squad profiles",
+    "Official crest, colours and photography",
+    "Simple publishing tool for club staff",
+    "Enquiries delivered to the club's inbox",
+    "Automatic sharing to Facebook"
+   ]
+  },
+  {
+   "stage": "Later",
+   "label": "As demand grows",
+   "items": [
+    "Richer media library and video",
+    "League or competition data feeds",
+    "Ticketing or merchandise, if needed",
+    "Supporter mailing list",
+    "Partner impact reporting"
+   ]
+  }
+ ]
+}
