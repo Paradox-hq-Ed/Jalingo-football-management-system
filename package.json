@@ -18,5 +18,8 @@
     "reseed": "npm run reseed -w server",
     "start": "npm run start -w server",
     "test": "npm test -w server"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.18.0"
   }
 }

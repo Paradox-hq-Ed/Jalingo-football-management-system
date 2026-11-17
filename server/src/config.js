@@ -20,6 +20,8 @@ export const config = {
   corsOrigins: (env.CORS_ORIGINS || '').split(',').map((s) => s.trim()).filter(Boolean),
   // Password given to the seeded demo accounts. Change it, or delete the accounts, before going live.
   demoPassword: env.DEMO_PASSWORD || 'ChangeMe!123',
+  tursoDatabaseUrl: env.TURSO_DATABASE_URL,
+  tursoAuthToken: env.TURSO_AUTH_TOKEN,
   // Optional built front-ends to serve from this process (npm run build in each app).
   staticDirs: {
     club: env.CLUB_DIST || path.resolve(root, '../apps/club-web/dist'),
