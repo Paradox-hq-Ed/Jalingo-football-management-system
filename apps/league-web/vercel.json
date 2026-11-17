@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/api/:path*",
-            "destination": "https://your-jalingo-api.onrender.com/api/:path*"
+            "destination": "https://jalingo-football-management-system.onrender.com/api/:path*"
         },
         {
             "source": "/(.*)",
