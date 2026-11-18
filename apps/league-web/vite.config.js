@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   base: '/league/',
   plugins: [react()],
-  server: { port: 5174, proxy: { '/api': 'http://localhost:4000' } },
+  server: { port: 5174, proxy: { '/api': 'https://jalingo-football-management-system.onrender.com' } },
   build: { outDir: 'dist', sourcemap: true }
 });

@@ -33,16 +33,42 @@ export function createApp() {
     try { return JSON.parse(raw); } catch { throw badRequest('Body must be valid JSON'); }
   }
 
+  // function cors(req, res) {
+  //   const origin = req.headers.origin;
+  //   if (!origin) return;
+  //   const allowed = config.corsOrigins.includes(origin) || (config.env !== 'production' && /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origin));
+  //   if (allowed) {
+  //     res.setHeader('Access-Control-Allow-Origin', origin);
+  //     res.setHeader('Vary', 'Origin');
+  //     res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+  //     res.setHeader('Access-Control-Allow-Methods', 'GET,POST,PUT,PATCH,DELETE,OPTIONS');
+  //   }
+  // }
+
   function cors(req, res) {
     const origin = req.headers.origin;
-    if (!origin) return;
-    const allowed = config.corsOrigins.includes(origin) || (config.env !== 'production' && /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origin));
+    if (!origin) return false;
+
+    const allowed =
+      config.corsOrigins.includes(origin) ||
+      (config.env !== 'production' && /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origin));
+
+    console.log({ incomingOrigin: origin, allowedList: config.corsOrigins });
     if (allowed) {
       res.setHeader('Access-Control-Allow-Origin', origin);
       res.setHeader('Vary', 'Origin');
       res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
       res.setHeader('Access-Control-Allow-Methods', 'GET,POST,PUT,PATCH,DELETE,OPTIONS');
     }
+
+    // Handle browser preflight requests immediately
+    if (req.method === 'OPTIONS') {
+      res.statusCode = 204;
+      res.end();
+      return true; // Tells your main router to stop processing this request
+    }
+
+    return false;
   }
 
   function send(res, status, payload) {
