@@ -49,6 +49,7 @@ export function createApp() {
     const origin = req.headers.origin;
     if (!origin) return false;
 
+    console.log(`[${new Date().toISOString()}] ${req.method} ${req.url} | Origin: ${req.headers.origin || 'none'}`);
     const allowed =
       config.corsOrigins.includes(origin) ||
       (config.env !== 'production' && /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/.test(origin));
